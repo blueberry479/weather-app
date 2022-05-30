@@ -1,0 +1,82 @@
+.mainframe-header {
+    background-color: #80abec;
+    padding: 30px;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__arrow {
+    margin: 0px 0px 10px 0;
+}
+
+.header__arrow img {
+    width: 20px;
+}
+
+.header__icon {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.header__icon img {
+    width: 70px;
+}
+
+.header__city {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header__info {
+    text-align: right;
+}
+
+.info__temp {
+    font-size: 45px;
+}
+
+.info__feelslike {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.info__title {
+    font-size: 18px;
+}
+
+.mainframe-details {
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+
+
+.details__pressure {}
+
+.details__windspeed {}
+
+.details__humidity {}
+
+.details__visibility {}
+
+.item__icon img {
+    width: 50px;
+}
+
+.item__value {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.details {
+    text-align: center;
+}

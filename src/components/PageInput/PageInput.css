@@ -1,0 +1,55 @@
+
+.mainframe__choosecity{
+    padding: 50px 0 0 0;
+}
+.choosecity-form__input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.choosecity__button{
+    margin: 70px;
+    width: 100px;
+    border: none;
+    border-radius: 5%;
+    height: 30px;
+    font-family: "Lato";
+    font-size: 18px;
+}
+
+.choosecity__input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    font-size: 20px;
+}
+.mainframe__choosecity{
+    margin: 60px;
+    text-align: center;
+}
+.choosecity__logo img{
+    width: 70px;
+}
+.choosecity__list{
+    position: absolute;
+    top: 15px;
+    list-style: none;
+    height:60px;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+.choosecity__list::-webkit-scrollbar{
+    width: 0;
+}
+.choosecity__list-item{
+    display: flex;
+    text-align-last: left;
+    font-size: 16px;
+}
+.choosecity__list-item::hover{
+    font-style: italic;
+}
